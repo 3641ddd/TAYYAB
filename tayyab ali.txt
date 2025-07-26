@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Outlines Notes and Assignment</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f8ff;
+    }
+    header {
+      background-color: #005baa;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #003f7d;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #003f7d;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 15px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #003f7d;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    form button {
+      background-color: #005baa;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>All Outlines Notes and Assignment</h1>
+    <p>PU outlines ke mutabiq assignments aur notes - Paid & Reliable</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#order">Order</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="card">
+      <h3>Custom Assignments</h3>
+      <p>Subject wise assignments, original content, fast delivery.</p>
+    </div>
+    <div class="card">
+      <h3>Notes Preparation</h3>
+      <p>Punjab University syllabus ke mutabiq notes in Urdu/English.</p>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <div class="card">
+      <ul>
+        <li>Assignment (per subject): Rs. 300 – Rs. 800</li>
+        <li>Notes (per outline): Rs. 1000 – Rs. 2000</li>
+        <li>Urgent Order: +Rs. 200</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="order">
+    <h2>Order Now</h2>
+    <div class="card">
+      <form>
+        <input type="text" placeholder="Full Name" required />
+        <input type="text" placeholder="WhatsApp Number" required />
+        <input type="text" placeholder="Subject Name" required />
+        <textarea placeholder="Your Topic or Outline Info" required></textarea>
+        <input type="date" placeholder="Deadline" required />
+        <button type="submit">Submit Order</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="card">
+      <p><strong>WhatsApp:</strong> 03XX-XXXXXXX</p>
+      <p><strong>Email:</strong> alloutlineshelp@gmail.com</p>
+      <p><strong>Instagram:</strong> @all.outlines.notes</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 All Outlines Notes and Assignment. All rights reserved.
+  </footer>
+</body>
+</html>
+
